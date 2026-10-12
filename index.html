@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Spotify - Web Player: Music for everyone</title>
+        <!-- Font Awesome -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <!-- Google Font -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+        <!-- Vanilla CSS -->
+        <link rel="stylesheet" href="style.css">
+        <link rel="icon" href="./assets/logo.png">
+    </head>
+    <body>
+        <div class="main">
+            <div class="sidebar">
+                <div class="nav">
+                    <div class="nav-option">
+                        <a href="#">
+                            <i class="fa-solid fa-house"></i>
+                            Home
+                        </a>
+                    </div>
+                    <div class="nav-option">
+                        <a href="#">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                            Search
+                        </a>
+                    </div>
+                </div>
+                <div class="library">
+                    <div class="lib-title">
+                                <a href="#">
+                                    <div class="lib-tag">
+                                        <img src="./assets/library_icon.png">
+                                        <p>Your Library</p>
+                                    </div>
+                                </a>
+                        <a href="#" class="plus"><i class="fa-solid fa-plus"></i></a>
+                        <a href="#" class="arrow"><i class="fa-solid fa-arrow-right"></i></a>
+                    </div>
+                    <div class="library-option-first">
+                        <p class="p1">Create your first playlist</p>
+                        <p class="p2">It's easy, we'll help you</p>
+                        <div>
+                            <button class="badge badge-1" type="submit">Create playlist</button>
+                        </div>
+                    </div>
+                    <div class="library-option-sec">
+                        <p class="p3">Let's find some podcasts to follow</p>
+                        <p class="p4">We'll keep you updated on new episodes</p>
+                        <div>
+                            <button class="badge badge-2" type="submit">Browse podcasts</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+                <div class="nav-bar">
+                    <div class="nav-bar-box1">
+                        <a href="#"><img src="./assets/backward_icon.png"></a>
+                        <a href="#" class="hide"><img src="./assets/forward_icon.png"></a>
+                    </div>
+                    <div class="nav-bar-box2">
+                        <button class="badge badge-2 hide" type="submit">Explore Premium</button>
+
+                        <button class="badge badge-1 install-button" type="submit"><i class="fa-regular fa-circle-down"></i> Install App</button>
+                        
+                        <a href="#">
+                            <div class="user-icon">
+                                IS
+                                <!-- <i class="fa-regular fa-user"></i> -->
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+            <div class="main-content">
+                
+
+                <div class="cards">
+                    <h2 class="first-card">Recently Played</h2>
+                    <div class="card-container">
+                        
+                        <div class="card">
+                            <img src="./assets/card1img.jpeg" class="card-img">
+                            <p class="card-title">Top 50 songs</p>
+                            <p class="card-content">Listen these for a better taste...</p>
+                        </div>
+
+                        <div class="card">
+                            <img src="./assets/card5img.jpeg" class="card-img">
+                            <p class="card-title">Top 50 songs</p>
+                            <p class="card-content">Listen these for a better taste...</p>
+                        </div>
+
+                        <div class="card">
+                            <img src="./assets/card6img.jpeg" class="card-img">
+                            <p class="card-title">Top 50 songs</p>
+                            <p class="card-content">Listen these for a better taste...</p>
+                        </div>
+                    </div>
+
+                    <h2>Trending Now Near You</h2>
+                    <div class="card-container">
+    
+                        <div class="card">
+                            <img src="./assets/card2img.jpeg" class="card-img">
+                            <p class="card-title">Top 50 songs</p>
+                            <p class="card-content">Listen these for a better taste...</p>
+                        </div>
+
+                        <div class="card">
+                            <img src="./assets/card3img.jpeg" class="card-img">
+                            <p class="card-title">Top 50 songs</p>
+                            <p class="card-content">Listen these for a better taste...</p>
+                        </div>
+
+                        <div class="card">
+                            <img src="./assets/card4img.jpeg" class="card-img">
+                            <p class="card-title">Top 50 songs</p>
+                            <p class="card-content">Listen these for a better taste...</p>
+                        </div>
+
+                        <div class="card">
+                            <img src="./assets/card2img.jpeg" class="card-img">
+                            <p class="card-title">Top 50 songs</p>
+                            <p class="card-content">Listen these for a better taste...</p>
+                        </div>
+
+                        <div class="card">
+                            <img src="./assets/card3img.jpeg" class="card-img">
+                            <p class="card-title">Top 50 songs</p>
+                            <p class="card-content">Listen these for a better taste...</p>
+                        </div>
+                    </div>
+
+                    <h2>Featured Charts</h2>
+                    <div class="card-container">
+                        <div class="card">
+                            <img src="./assets/card5img.jpeg" class="card-img">
+                            <p class="card-title">Top 50 songs</p>
+                            <p class="card-content">Listen these for a better taste...</p>
+                        </div>
+
+                        <div class="card">
+                            <img src="./assets/card6img.jpeg" class="card-img">
+                            <p class="card-title">Top 50 songs</p>
+                            <p class="card-content">Listen these for a better taste...</p>
+                        </div>
+
+                        <div class="card">
+                            <img src="./assets/card1img.jpeg" class="card-img">
+                            <p class="card-title">Top 50 songs</p>
+                            <p class="card-content">Listen these for a better taste...</p>
+                        </div>
+                    </div>
+
+                    <h2>Popular album and singles</h2>
+                    <div class="card-container">
+    
+                        <div class="card">
+                            <img src="./assets/card2img.jpeg" class="card-img">
+                            <p class="card-title">Top 50 songs</p>
+                            <p class="card-content">Listen these for a better taste...</p>
+                        </div>
+
+                        <div class="card">
+                            <img src="./assets/card3img.jpeg" class="card-img">
+                            <p class="card-title">Top 50 songs</p>
+                            <p class="card-content">Listen these for a better taste...</p>
+                        </div>
+
+                        <div class="card">
+                            <img src="./assets/card4img.jpeg" class="card-img">
+                            <p class="card-title">Top 50 songs</p>
+                            <p class="card-content">Listen these for a better taste...</p>
+                        </div>
+
+                        <div class="card">
+                            <img src="./assets/card2img.jpeg" class="card-img">
+                            <p class="card-title">Top 50 songs</p>
+                            <p class="card-content">Listen these for a better taste...</p>
+                        </div>
+
+                        <div class="card">
+                            <img src="./assets/card3img.jpeg" class="card-img">
+                            <p class="card-title">Top 50 songs</p>
+                            <p class="card-content">Listen these for a better taste...</p>
+                        </div>
+                    </div>
+
+                    
+                </div>
+            </div>
+
+            <div class="player">
+                <div class="album">
+                    <div class="album-pic">
+                        <img src="./assets/Homework/album_picture.jpeg">
+                    </div>
+                    <div class="abt-album">
+                        <span class="album-title">Daylight</span>
+                        <span class="album-singer">Devid Kushner</span>
+                    </div>
+                    <div class="album-icon">
+                        <img src="./assets/Homework/album_icon1.png" class="heart">
+                        <img src="./assets/Homework/album_icon2.png" class="pic-in-pic">
+                    </div>
+                </div>
+
+                <div class="player-controls">
+                    <div class="playback-imgs">
+                        <img src="./assets/player_icon1.png" class="shuffle-btn">
+                        <img src="./assets/player_icon2.png" class="back-btn">
+                        <img src="./assets/player_icon3.png" class="pause-btn">
+                        <img src="./assets/player_icon4.png" class="forward-btn">
+                        <img src="./assets/player_icon5.png" class="loop-btn">
+                    </div>
+                    <div class="playback-bar">
+                        <span class="current-time">0:00</span> &nbsp;
+                        <input type="range" min="0" max="100" class="player-range" step="1" value="0">
+                        &nbsp;<span class="total-time">3:33</span>
+                    </div>
+                </div>
+
+                <div class="playback-options">
+                    <img src="./assets/Homework/controls_icon1.png" class="btn1">
+                    <img src="./assets/Homework/controls_icon2.png" class="btn2">
+                    <img src="./assets/Homework/controls_icon3.png" class="btn3">
+                    <img src="./assets/Homework/controls_icon4.png" class="btn4">
+                    <img src="./assets/Homework/controls_icon5.png" class="btn5">
+                    <input type="range" min="0" max="100" step="1" class="sound-range" value="0">
+                    <i class="fa-solid fa-up-right-and-down-left-from-center" class="btn6"></i>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
